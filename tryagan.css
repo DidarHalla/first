@@ -125,8 +125,25 @@ body{
 }
 .svg-heart{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 0px;
+}
+@media screen and (max-width: 700px){
+    .svg-heart{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .svg-heart-for-mobile{
+        position: absolute;
+        top: 26px;
+        right: 24px;
+    }
+}
+@media screen and (min-width: 700px){
+    .svg-heart-for-mobile{
+        display: none;
+    }
 }
 .item-price{
     font-weight: bold;
