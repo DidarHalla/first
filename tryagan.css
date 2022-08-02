@@ -123,11 +123,6 @@ body{
         margin: 10px;
     }
 }
-.svg-heart{
-    position: absolute;
-    top: 15px;
-    right: 0px;
-}
 .svg-heart-for-mobile{
     position: absolute;
     top: 10px;
